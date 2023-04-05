@@ -12,9 +12,11 @@
         android:theme="@style/Theme.AjudaAi"
         tools:targetApi="31">
         <activity
+            android:name=".IluminacaoActivity"
+            android:exported="false" />
+        <activity
             android:name=".SplashActivity"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true"
